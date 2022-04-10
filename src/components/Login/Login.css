@@ -1,5 +1,4 @@
 .formContainer{
-    height: 600px;
     width: 500px;
     display: flex;
     justify-content: center;
@@ -8,6 +7,7 @@
     box-sizing: border-box;
     margin: 10px auto;
     border-radius: 10px;
+    box-shadow: -5px 5px 5px #ff99008c;
 }
 
 .formTitle{
@@ -50,7 +50,34 @@
     background-color: #ff99004d;
 }
 
+.formSubmit:hover{
+    background-color: #ff9900c2;
+}
+
 .formLink{
     color: #FF9900;
     text-decoration: none;
+}
+
+.orSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4150x;
+    margin: 20px 0px;
+    background-color: #ffffff;
+    border: 1px solid #95A0A7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.authDiv img{
+    width: 30px;
+    margin: 10px;
 }
