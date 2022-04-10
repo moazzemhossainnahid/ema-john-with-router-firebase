@@ -86,18 +86,6 @@ const Signup = () => {
           </Link>
         </p>
 
-        <div className="orSec">
-          <div className="">------------------</div>
-          <h4> &nbsp; or &nbsp; </h4>
-          <div className="">------------------</div>
-        </div>
-
-        <div className="authentication">
-            <div className="authDiv">
-                <img src={google} alt="" />
-                <h3>Continue With Google</h3>
-            </div>
-        </div>
       </div>
     </div>
     );
